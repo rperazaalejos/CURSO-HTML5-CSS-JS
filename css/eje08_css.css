@@ -1,0 +1,20 @@
+img{
+    float:right;
+}
+
+#uno, #dos {
+    border: 1px solid;
+}
+
+#tres{
+    clear:both;
+}
+
+#ant{
+    float: left;
+}
+
+#sig{
+    float: right;
+}
+

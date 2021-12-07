@@ -1,0 +1,161 @@
+/* SELECTOR UNIVERSAL  */
+* { margin: 0;  padding: 0; box-sizing: border-box;}
+
+/* selector   body */
+body {font-family: Georgia, 'Times New Roman', Times, serif; }
+
+/* HEADERS */
+h1 {font-size: 40px;}
+
+h2 {font-size: 32px;}
+
+h3 {font-size: 28px;}
+
+h4 {font-size: 24px;}
+
+h5 {font-size: 20px;}
+
+h6 {font-size: 16px;}
+
+/* selector parrafo */
+p {font-size: 16px;  line-height: 1.7em; margin: 10px 0;}
+
+/* selector ancla */
+a {text-decoration: none;  color: saddlebrown ;}
+
+/* clase titulo 1 */
+.titulo-1 {
+   font-size: 88px;
+   font-weight: 300px;
+}
+
+/* clase titulo 2 */
+.titulo-2 {
+    font-size: 56px;
+    font-weight: 300px;
+ }
+
+ #principal {
+     background-image: url('../img/showcase.png');     
+     background-repeat:no-repeat ;
+     background-size:cover;
+     background-position: center;
+     height: 100vh;
+     color:#fff;
+     padding-top: 160px;     
+}  
+
+/* h1 que se encuentra dentro del elemento con el
+id=principal con las propiedades */
+
+#principal h1 {padding-top: 20px; padding-bottom: 20px;}
+
+ /* p que se encuentra dentro del elemento con el id=principal */
+
+ #principal p {width: 70%;
+               padding-bottom: 40px;}
+/* id=secc-description */
+
+#secc-description {padding-top:  120px;  padding-bottom: 100px ; text-align: center;}
+
+/* 12. Defina el h2 que se encuentra dentro del elemento con el id=descripcion
+con las propiedades:*/
+
+#secc-description h2 {padding-bottom: 20px;}
+
+/* 13. Defina el id=fil-descripcion con las propiedades: */
+ #fil-description {padding-top: 20px;}
+
+/* 14. Defina el id=col-descripcion con las propiedades: */
+#col-description {float: left;  width: 33%; padding:25px;}
+
+
+/*  15. Defina el id=opiniones con las propiedades: */
+ #opiniones {  background-image: url('../img/background.jpg'); 
+              background-repeat: no-repeat; 
+              background-size: cover;
+              background-position: center;
+              padding-top: 80px;
+              padding-bottom: 80px;
+              text-align: center;
+              font-weight: 300;
+              color: #fff; }
+
+/* Defina el h4 que se encuentra dentro del elemento con el id=opiniones con
+las propiedades: */
+
+#opiniones h4 {padding-bottom: 40px;}
+
+/* 17. Defina el img que se encuentra dentro del elemento con el id=opiniones con
+las propiedades:  */
+
+#opiniones img{
+     padding-bottom: 20px;
+     border-radius: 50%;
+}
+
+/*  18. Defina el párrafo p que se encuentra dentro del elemento con el
+id=opiniones con las propiedades */
+
+#opiniones p {margin:0 auto; width: 70%;}
+
+
+/* 19. Defina la clase cliente que se encuentra dentro del elemento con el
+id=opiniones con las propiedades:  */
+
+#opiniones .cliente {padding-top: 20px;}
+
+/* 20. Defina el id productos */
+
+#productos {background-color: #f9f9f9;  padding-top: 80px; padding-bottom: 80px;  text-align: center;}
+
+/*21. Defina el id=fil-productos */
+#fil-productos {padding-top: 20px;}
+
+/*Defina el id=col-productos */
+#col-productos {float: left; width: 33%; padding: 25px; }
+
+/* 23. Defina el selector img que se encuentra dentro del elemento con id=colproductos
+con las propiedades */
+#col-productos img {
+    width: 100%;
+}
+
+/* 24. Defina el id=sobre-market*/
+
+#sobre-market {padding-top: 80%; padding-bottom: 80% ;}
+
+/*25. Defina la clase=lugar-imagen   duda: padding: 150px 50px */ 
+
+.lugar-imagen {float: left; width:50% ; padding: 40px; }
+
+/*26. Defina el selector img que se encuentra dentro del elemento con la clase=
+lugar-imagen  */
+
+.lugar-imagen img {width: 100%;}
+
+/*27. Defina la clase=texto-sobre-market   duda padding: 150px 50px*/
+.texto-sobre-market {float: right;  width: 50%;  padding: 150px 50px;}
+
+/* 28. Defina el selector párrafo que se encuentra en los elementos que tienen la
+clase=texto-sobre-market */
+
+.texto-sobre-market p {padding-top: 20px;}
+
+
+/*  29. Defina el id=footer con las propiedades*/
+ #footer {background-color: #f9f9f9; text-align: center;  padding: 20px;}
+
+
+
+/* */
+/* */
+
+
+
+
+
+
+
+               
+

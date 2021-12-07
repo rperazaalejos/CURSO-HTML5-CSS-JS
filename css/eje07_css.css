@@ -1,0 +1,45 @@
+#primero{
+    position: relative;	
+    border:#777 solid;
+    width: 900px;
+    /*probar distintos valores con estas propiedades*/
+}
+
+p {
+    position:relative;
+    border:#336699 dashed;
+    /*probar distintos valores con estas propiedades*/
+}
+
+.normal {
+    position: static;	
+    border:#C30 double;
+    height: 400px;
+    /*probar distintos valores con estas propiedades*/
+}
+
+.normal p {
+    position:absolute;
+    top:10px;
+    left: 200px;
+    border:#FC9 dotted;
+    height:auto;
+    /*probar distintos valores con estas propiedades*/
+}
+
+span, em{
+    /*position:static;
+    border:#F00 solid;	*/
+    position:relative;
+	border:#FF0000 solid;
+	top:0.5em;
+	left:0.5em;	
+    /*probar distintos valores con estas propiedades*/
+}
+
+img{
+    position: relative;
+    border:#FF0000 solid;
+    top:10em;
+    left:30em;	
+}

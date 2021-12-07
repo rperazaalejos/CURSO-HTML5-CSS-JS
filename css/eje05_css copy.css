@@ -1,0 +1,4 @@
+/* solo aplica a hijos de span */
+span > strong{
+    color:blue;
+}

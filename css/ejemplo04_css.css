@@ -1,0 +1,37 @@
+span {
+    color:cadetblue;
+}
+
+/* solo aplica a los a despues de un p*/
+
+p a {
+color: chocolate;
+}
+/* ya no restringidos usa el descenndiente a todos despues de un p*/
+p * a {
+    font-size: 10px;
+color:brown;
+
+}
+
+p.main{
+color:gold;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: x-large;
+
+}
+
+.principal{
+    font-size: 15px;
+}
+.resaltar{
+    font-weight: bolder;
+}
+
+.error{
+    color:red;
+}
+
+#navi{
+    color:seagreen;
+}
